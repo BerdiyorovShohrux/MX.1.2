@@ -1,0 +1,3 @@
+https://sehruxaimx.netlify.app/
+
+Yasagan saytimni ko'rish uchun linkni bosing...
