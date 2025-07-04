@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #333;
+            margin: 20px 0;
+            font-weight: bolder;
+            text-shadow: 2px 2px 22px black;
+        }
+
+        .teach {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .teach img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+
+        .teach p {
+            font-size: 1.5rem;
+            color: #333;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 700px;
+            padding: 10px;
+            background: #fff;
+            border-radius: 10px;
+            font-family: 'Monotype Corsiva', cursive;
+
+            box-shadow: 3px 3px 12px rgba(0,0,0,0.1);
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 10px 9px 12px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .gallery img {
+                height: 300px;
+            }
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .bigp{
+            text-align: center;
+            display: flex;
+            width: 100%;
+            height: 750px;
+        }
+        .bigp img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 10px 9px 12px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+            padding: 10px;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Maktabdagi Xotiralarim Albomi</h1>
+
+    <div class="teach">
+        <img src="JX1A9694.JPG" alt="Ustoz rasmi">
+        <p>
+            Hurmatli ustozimiz Usmonov Bahtiyor! Biz sizdan ikki yil avval ta’lim olib, maktabni bitirdik, ammo bergan saboqlaringiz va mehribonligingiz hali ham yodimizda. Siz biz uchun nafaqat ustoz, balki hayotga yo‘l ko‘rsatgan ustun bo‘ldingiz. Sabr-toqatli, samimiy va doimo qo‘llab-quvvatlovchi bo‘lganingiz uchun sizga chin dildan rahmat aytamiz. Barcha bitiruvchilar nomidan sizga minnatdorchilik bildiramiz! Sizni doim ehtirom bilan eslaymiz. Rahmat Sizga, ustoz!
+        </p>
+    </div>
+
+    <div class="gallery">
+        <img src="JX1A8521.JPG" alt="Image 1">
+        <img src="JX1A8610.JPG" alt="Image 2">
+        <img src="JX1A8566.JPG" alt="Image 3">
+        <img src="JX1A8594.JPG" alt="Image 4">
+        <img src="JX1A8605.JPG" alt="Image 5">
+        <img src="JX1A9824.JPG" alt="Image 6">
+        <img src="JX1A9821.JPG" alt="Image 7">
+        <img src="JX1A9856.JPG" alt="Image 8">
+        <img src="JX1A8628.JPG" alt="Image 9">
+        <img src="20250524_103754.jpg" alt="Image 10">
+        <img src="JX1A8458.JPG" alt="Image 11">
+        <img src="JX1A9842.JPG" alt="Image 12">
+        <img src="JX1A8586.JPG" alt="Image 13">
+        <img src="photo_2025-07-04_15-55-48.jpg" alt="Image 14">
+        <img src="photo_2025-07-04_15-55-31.jpg" alt="Image 15">
+        <img src="JX1A8573.JPG" alt="Image 16">
+        <img src="JX1A8580.JPG" alt="Image 17">
+        <img src="JX1A8612.JPG" alt="Image 18">
+        <img src="photo_2025-07-04_15-54-43.jpg" alt="Image 19">
+        <img src="photo_2025-07-04_15-54-35.jpg" alt="Image 20">
+    </div>
+    <div class="bigp">
+        <img src="JX1A8492.JPG" alt="">
+    </div>
+
+</body>
+</h
